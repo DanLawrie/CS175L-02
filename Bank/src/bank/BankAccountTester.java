@@ -1,7 +1,6 @@
 package bank;
 import java.util.Scanner;
 public class BankAccountTester {
-double balance = 0;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
