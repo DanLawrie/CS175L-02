@@ -19,7 +19,7 @@ public class BankAccount {
 
 		   /**
 		      Makes a deposit into this account.
-		      @param amount the amount of the deposit
+		      @param amount the amount of the deposi
 		   */
 		   public void deposit(double amount)
 		   {
