@@ -1,6 +1,6 @@
 package roaches;
 import javax.swing.JOptionPane;
-import java.text.DecimalFormat;
+
 
 public class RoachSimulation {
 		
@@ -29,7 +29,7 @@ public class RoachSimulation {
 		int pct = Integer.parseInt(two);
 		bugs.spray(pct);
 		      	
-		JOptionPane.showMessageDialog(null, "The roach population after cycle" + i +" " + pct + " percent spraying is " + bugs.getroaches());
+		JOptionPane.showMessageDialog(null, "The roach population after cycle " + i + " " + pct + " percent spraying is " + bugs.getroaches());
 		
 
 
