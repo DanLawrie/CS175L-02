@@ -16,7 +16,7 @@ public class RoachSimulation {
 	      JOptionPane.showMessageDialog(null, "The initial roach population is " + bugs.getroaches());
 
 		 /**
-		  * loop
+		  * loop cycles
 		  */
 		 
 		 for(int i = 1; i<= 4; i++)
