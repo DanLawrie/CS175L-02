@@ -45,7 +45,7 @@ public class AgeCalculation {
 		years = todayyears - years;
 		
 		
-		System.out.println(months + "/" + agedays + "/" + years);
+		JOptionPane.showMessageDialog(null, "You are "  + years + " years and " + months + " month(s) and " + agedays +" days old");
 	   
 		
 
