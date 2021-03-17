@@ -35,8 +35,9 @@ public class AgeCalculation {
 		months = todaymonths - months;
 		int agedays = todaydays - days;
 		
-		if(years%4 == 0)
+		if(years/4 > 0)
 		{
+			agedays = years/4 +agedays;
 			if(months >= 3)
 			{
 				agedays++;
