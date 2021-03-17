@@ -34,7 +34,7 @@ public class AgeCalculation {
 		
 		months = todaymonths - months;
 		int agedays = todaydays - days;
-
+		
 		if(years%4 == 0)
 		{
 			if(months >= 3)
@@ -43,9 +43,22 @@ public class AgeCalculation {
 			}
 		}
 		years = todayyears - years;
+		if( months < 0)
+		{
+			years--;
+			months = 12+ months;
+		}
+		if (agedays < 0)
+		{
+			months--;
+			
+			
+		}
 		
 		
-		JOptionPane.showMessageDialog(null, "You are "  + years + " years and " + months + " month(s) and " + agedays +" days old");
+		
+		
+		JOptionPane.showMessageDialog(null, "You are "  + years + " years and " + months + " month(s) old");
 	   
 		
 
