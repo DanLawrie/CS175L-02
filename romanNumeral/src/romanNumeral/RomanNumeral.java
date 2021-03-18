@@ -107,7 +107,7 @@ public class RomanNumeral {
 				y = num-y;
 				for(int p = y/5; p > 0; p--)
 				{
-				roman = roman + "y";
+				roman = roman + "V";
 				}
 				num = num%5;
 				
