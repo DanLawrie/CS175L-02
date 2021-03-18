@@ -55,10 +55,7 @@ public class AgeCalculation {
 			
 			
 		}
-		
-		
-		
-		
+
 		JOptionPane.showMessageDialog(null, "You are "  + years + " years and " + months + " month(s) old");
 	   
 		
