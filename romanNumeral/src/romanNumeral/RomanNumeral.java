@@ -13,7 +13,7 @@ public class RomanNumeral {
 	    String roman = "";
 
 		int y = 0;
-		if(num < 3999)
+		if(num < 4000) 
 		{
 //M
 			if(num >= 1000)
