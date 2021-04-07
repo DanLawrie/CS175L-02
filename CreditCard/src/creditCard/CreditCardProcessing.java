@@ -2,8 +2,6 @@ package creditCard;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-import java.util.Scanner;
 
 public class CreditCardProcessing {
 
