@@ -12,6 +12,7 @@ public class CreditCardProcessing {
 		int i = 0;
 		while(!cardNum.contentEquals("-99"))
 		{
+		i = 0;
 	    while (i < cardNum.length())
 	    {
 	    char ch = cardNum.charAt(i);
