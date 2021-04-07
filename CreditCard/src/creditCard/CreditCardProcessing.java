@@ -9,7 +9,7 @@ public class CreditCardProcessing {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter Credit card number or -99 to end:");
+		System.out.println("Enter Credit Card number or -99 to end:");
 		String cardNum = in.nextLine();
 		int i = 0;
 		while(!cardNum.contentEquals("-99"))
@@ -42,7 +42,8 @@ public class CreditCardProcessing {
 			 cardNum = in.nextLine();
 		}
 		
-		System.out.println("Googbye");
+		System.out.println("Goodbye");
+		in.close();
 	}
 
 }
