@@ -1,13 +1,19 @@
 package creditCard;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class CreditCardProcessing {
 
 	public static void main(String[] args) {
-		
-		String cardNum = JOptionPane.showInputDialog("Enter Credit card number:");
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Credit card number or -99 to end:");
+		String cardNum = in.nextLine();
 		int i = 0;
+		while(!cardNum.contentEquals("-99"))
+		{
 	    while (i < cardNum.length())
 	    {
 	    char ch = cardNum.charAt(i);
@@ -29,8 +35,14 @@ public class CreditCardProcessing {
 	       {
 	          i++;
 	       }
+	      
 	    }
-	    JOptionPane.showMessageDialog(null, cardNum);
+	    System.out.println(cardNum);
+	     System.out.println("Enter Credit card number or -99 to end:");
+			 cardNum = in.nextLine();
+		}
+		
+		System.out.println("Googbye");
 	}
 
 }
